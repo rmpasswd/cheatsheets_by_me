@@ -1,0 +1,5 @@
+- `git switch anotherBranch` : switch  command saves the current un-commited changes to `.git` and  moves the HEAD to  'anotherBranch'
+- `git checkout anotherBranch`
+- `git checkout -b newBranch` : creates a changes to a  new branch, local of course.
+- `git push -u origin newBranch` : All future `git push` command will push to newBranch  in remote(Github). The branch will be created if do not exists.
+- `git push origin local_branch:remote_branch`: Stateless, does not affect how the  next `git push` will behave.

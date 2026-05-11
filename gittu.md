@@ -15,3 +15,4 @@
 
 - **I made a bugfix/feature that should be merge to all other branches as well**
   - **Commit** the changes in current branch, get the commit ID
+-  Now copy file.py from BranchB to main. Make sure you are in main using `git switch|checkout`. Then  `git checkout BranchB -- file.py`. Now commit etc.
